@@ -1,7 +1,19 @@
 randomSVGMotion
 =====================
  
-randomSVGMotion will animte SVGs.
+randomSVGMotion will animte SVGs points and create some intressint effects.
+
+### Introduction
+Suggestion are more than welcome, not only for feature requests but also for coding style improvements.
+
+### Compatibility
+randomeSVGMotion is fully functional on all modern browsers, as well as on mobile browsers
+
+### Help
+Please don't hesitate to contact me with any questions!
+
+
+##Usage
 
 ###Including files
 You need JQuerry and the plugin it self
