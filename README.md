@@ -51,7 +51,7 @@ You need a picture, something like this:
 
 - `additional`: (optional | no default) Other points that are associated with this point
 
-⋅⋅1. structure: ["id","x tag name","y tag name"]
+--1. structure: ["id","x tag name","y tag name"]
 
 
 ##Example
