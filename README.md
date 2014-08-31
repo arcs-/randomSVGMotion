@@ -8,8 +8,6 @@ randomSVGMotion will animte SVGs points and create some intressint effects.
 - [Live project](https://stillhart.biz/) (Take a moment and watch the lines.)
 
 
-Suggestion are more than welcome, not only for feature requests but also for coding style improvements.
-
 ### Help
 Please don't hesitate to contact me with any questions!
 
