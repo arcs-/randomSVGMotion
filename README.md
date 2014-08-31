@@ -40,7 +40,7 @@ You need a picture, something like this:
 ```
 
 
-##Options
+###Options
 - `start`: (optional | default: point in svg tag) Set the centre fot the point to move around
 
 - `points`: (optional | default:  ['cx', 'cy'] (for a circle)) The the of the values to affect
