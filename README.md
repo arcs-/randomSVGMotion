@@ -50,6 +50,7 @@ You need a picture, something like this:
 - `speed`: (optional | default: 0.2) Pixels to move in a certin time
 
 - `additional`: (optional | no default) Other points that are associated with this point
+-- test
 
 
 ##Example
