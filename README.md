@@ -52,7 +52,7 @@ You need a picture, something like this:
 - `additional`: (optional | no default) Other points that are associated with this point
 
  - structure: `[" id "," x tag name "," y tag name "]`
-   e.g. ["#R2_C0","x2","y2"]
+ - e.g. ["#R2_C0","x2","y2"]
 
 
 ##Example
