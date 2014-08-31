@@ -5,7 +5,7 @@ randomSVGMotion will animte SVGs.
 
 ###Including files
 You need JQuerry and the plugin it self
-```javascript
+```html
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script type=text/javascript src=js/jquery.randomSVGMotion.min.js></script>
 ```
@@ -51,7 +51,7 @@ You need a picture, something like this:
 
 - `additional`: (optional | no default) Other points that are associated with this point
 
- - structure: ["id","x tag name","y tag name"]
+ - structure: ```javascript ["id","x tag name","y tag name"] ```
 
 
 ##Example
