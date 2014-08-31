@@ -65,6 +65,7 @@ You need a picture, something like this:
 
 
 ##Example
+A complete example can be found in index.html
 ```javascript
 	$('#R0').randomSVGMotion({
 		"start": [700,50],
