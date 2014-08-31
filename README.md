@@ -4,8 +4,8 @@ randomSVGMotion
 ### Introduction
 randomSVGMotion will animte SVGs points and create some intressint effects.
 
-Demo: - [Demo](https://stillhart.biz/) (https://stillhart.biz/project/randomSVGMotion/)
-      - [Live project](https://stillhart.biz/) (Take a moment and watch the lines.)
+Demo: -[Demo](https://stillhart.biz/) (https://stillhart.biz/project/randomSVGMotion/)
+      -[Live project](https://stillhart.biz/) (Take a moment and watch the lines.)
 
 
 Suggestion are more than welcome, not only for feature requests but also for coding style improvements.
