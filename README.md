@@ -1,7 +1,8 @@
-##randomSVGMotion
+randomSVGMotion
+=====================
 ![Example Picture](https://stillhart.biz/project/randomSVGMotion/banner.jpg)
 
-### Introduction
+## Introduction
 randomSVGMotion will animte SVGs points and create some intressint effect,
 with minimal file size.
 
