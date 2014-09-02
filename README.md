@@ -3,7 +3,7 @@ randomSVGMotion
 ![Example Picture](https://stillhart.biz/project/randomSVGMotion/banner.jpg)
 
 ## Introduction
-randomSVGMotion will animte SVGs points and create some intressint effect,
+randomSVGMotion will animte SVGs points and create some interesting effect,
 with minimal file size.
 
 - [Live project](https://stillhart.biz/)
