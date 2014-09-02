@@ -1,5 +1,6 @@
 randomSVGMotion
 =====================
+![Example Picture](https://stillhart.biz/project/randomSVGMotion/banner.jpg)
 
 ### Introduction
 randomSVGMotion will animte SVGs points and create some intressint effect,
