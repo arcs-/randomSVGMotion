@@ -6,8 +6,8 @@ randomSVGMotion
 randomSVGMotion will animte SVGs points and create some intressint effect,
 with minimal file size.
 
+- [Live project](https://stillhart.biz/)
 - [Demo](https://stillhart.biz/project/randomSVGMotion/)
-- [Live project](https://stillhart.biz/) (Take a moment and watch the lines.)
 
 
 ### Help
