@@ -1,5 +1,4 @@
-randomSVGMotion
-=====================
+##randomSVGMotion
 ![Example Picture](https://stillhart.biz/project/randomSVGMotion/banner.jpg)
 
 ### Introduction
