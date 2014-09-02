@@ -3,6 +3,8 @@
  *
  *   Math:   Ph. Gressly Freimann
  *   Plugin: P. Stillhart
+ * 
+ *   License: MIT (https://github.com/arcs-/randomSVGMotion#license)
  */
 (function ($) {
 
@@ -32,7 +34,7 @@
         var p3x = staticX;
         var p3y = staticY;
 
-        var g_tl; // tSteps für die aktuelle Kurve.
+        var g_tl; // tSteps fÃ¼r die aktuelle Kurve.
         var g_t = 1.1; // aktueller Zeitpunkt t zwischen 0 und 1 
         var l_px = -1; // last painted position
         var l_py = -1;
@@ -41,7 +43,7 @@
         looper();
 
         function berechneNeueZufallsKurvenTeile() {
-            // Berechne zunächst die vier neuen Punkte (p3, p4, p5, p6). Neuer p3 ist vorest der alte p3.
+            // Berechne zunÃ¤chst die vier neuen Punkte (p3, p4, p5, p6). Neuer p3 ist vorest der alte p3.
             // Der neue Handler p1 (=p4) ist die Spiegelung von p2 an p3: 
             var p4x = p2x + 2 * (p3x - p2x);
             var p4y = p2y + 2 * (p3y - p2y);
@@ -57,7 +59,7 @@
             p1y = p4y;
             p2x = p5x;
             p2y = p5y;
-            p3x = p6x; // Der neue p3 wird mit p6 überschrieben.
+            p3x = p6x; // Der neue p3 wird mit p6 Ã¼berschrieben.
             p3y = p6y;
         }
 
@@ -116,9 +118,9 @@
 
         /**
          * Berechne x(t) [oder y(t)], wenn die vier x-Koordinaten bekannt sind.
-         * Ist t = 0, so wird einfach a0 zurückgegeben;
-         * ist t = 1, so wird a3 zurückgegeben.
-         * Liegt t zwischen 0 und 1, so wird der Bezier-Wert zurückgegeben.
+         * Ist t = 0, so wird einfach a0 zurÃ¼ckgegeben;
+         * ist t = 1, so wird a3 zurÃ¼ckgegeben.
+         * Liegt t zwischen 0 und 1, so wird der Bezier-Wert zurÃ¼ckgegeben.
          */
         function bezier(a0, a1, a2, a3, t) {
             var ti = 1 - t;
@@ -132,8 +134,8 @@
          * Berechne, wie lange die t-Differenz sein muss, damit all
          * 'pixelDistanz' Pixel ein neuer Punkt gezeichnet wird.
          * Beispiel: die Pixeldistanz ist 5 (px).
-         * Die Bezierkuve hat eine ungefähre Länge von 48px;
-         * somit muss die Strecke 0..1 (für t) in Strecken von 5/48 (ca 0.104) geteilt werden.
+         * Die Bezierkuve hat eine ungefÃ¤hre LÃ¤nge von 48px;
+         * somit muss die Strecke 0..1 (fÃ¼r t) in Strecken von 5/48 (ca 0.104) geteilt werden.
          */
         function tSteps(p0x, p0y, p1x, p1y, p2x, p2y, p3x, p3y, pixelDistanz) {
             return pixelDistanz / bezierLength(p0x, p0y, p1x, p1y, p2x, p2y, p3x, p3y);
