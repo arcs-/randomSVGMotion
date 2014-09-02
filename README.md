@@ -68,7 +68,7 @@ You need a picture, something like this:
  - e.g. `["#R2_C0","x2","y2"]`
 
 
-##Example
+###Example
 A complete example can be found in index.html
 ```javascript
 	$('#R0').randomSVGMotion({
